@@ -34,4 +34,14 @@
     return modalidade;
 }
 
+-(void)CalcularImcComPeso:(float) peso
+                  eAltura:(float) altura{
+    float imc;
+    imc = peso/(altura * altura);
+    // %0.2f = duas casas decimais no float
+    NSLog(@"O IMC de %@ é %0.2f", [self getNome], imc);
+}
+
+
+
 @end

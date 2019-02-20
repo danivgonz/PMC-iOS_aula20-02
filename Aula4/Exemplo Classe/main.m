@@ -17,6 +17,9 @@ int main(int argc, const char * argv[]) {
         [a setIdade:18];
         [a setModalidade:@"Natação"];
         NSLog(@"Iron man %@ tem %d anos",[a getNome], [a getIdade]);
+        
+        [a CalcularImcComPeso:85 eAltura:1.75];
+        
     }
     return 0;
 }

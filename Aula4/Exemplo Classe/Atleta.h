@@ -25,6 +25,9 @@ NS_ASSUME_NONNULL_BEGIN
 -(void)setModalidade:(NSString *)_modalidade;
 -(NSString *)getModalidade;
 
+-(void)CalcularImcComPeso:(float) peso
+                  eAltura:(float) altura;
+
 @end
 
 NS_ASSUME_NONNULL_END

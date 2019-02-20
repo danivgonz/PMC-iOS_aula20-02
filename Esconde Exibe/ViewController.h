@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)ocultarView:(id)sender;
+- (IBAction)exibirView:(id)sender;
+@property (weak, nonatomic) IBOutlet UIView *minhaView;
 
 @end
 
